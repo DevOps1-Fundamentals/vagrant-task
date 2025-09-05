@@ -7,4 +7,4 @@ Create a `Vagrantfile` that automates the creation and configuration of a `Virtu
 * Write an inline shell script in the `install_deps` variable to install the `openjdk-17-jdk` APT package Write an inline shell script in the `install_deps` variable.
 * Use the `shell` provisioner to execute this script.
 * Configure a Vagrant trigger to execute after vagrant up, which changes the directory to `/vagrant` and runs `./gradlew bootRun`.
-Once everything is set up, verify that you can see a JSON list of dogs by navigating to http://192.168.100.100:8080/dogs in your web browser.
+Once everything is set up, verify that you can see a JSON list of dogs by navigating to http://192.168.100.100:8080/dogs in your web browser
